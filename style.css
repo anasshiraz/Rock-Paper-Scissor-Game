@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/* heading */
+h1 {
+  background-color: rgb(4, 4, 39);
+  color: aliceblue;
+  height: 5rem;
+  line-height: 5rem;
+}
+
+.round-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#round {
+  margin-top: 2rem;
+  font-size: 2rem;
+}
+
+/* choices */
+.choice {
+  height: 170px;
+  width: 170px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.choice:hover {
+  cursor: pointer;
+  background-color: rgb(4, 4, 39);
+}
+
+img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.choice-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin-top: 3rem;
+}
+
+/* score board */
+.score-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  margin-top: 3rem;
+  font-size: 2rem;
+}
+
+#user-score,
+#comp-score,
+#draw {
+  font-size: 4rem;
+}
+
+/* reset button */
+.reset-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+#reset {
+  height: 3rem;
+  background-color: rgb(4, 4, 39);
+  color: aliceblue;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: none;
+  font-size: 1rem;
+}
+
+/* message */
+.msg-container {
+  margin-top: 3rem;
+}
+
+#msg {
+  background-color: rgb(4, 4, 39);
+  color: aliceblue;
+  font-size: 2rem;
+  display: inline;
+  padding: 1rem;
+  border-radius: 1rem;
+}
