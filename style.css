@@ -101,3 +101,65 @@ img {
   padding: 1rem;
   border-radius: 1rem;
 }
+
+/* mobile responsive */
+@media (max-width: 600px) {
+  h1 {
+    height: 4rem;
+    line-height: 4rem;
+    font-size: 1.5rem;
+    padding: 0 0.75rem;
+  }
+
+  #round {
+    margin-top: 1.25rem;
+    font-size: 1.35rem;
+  }
+
+  .choice-container {
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 2rem;
+    padding: 0 0.75rem;
+  }
+
+  .choice {
+    height: 115px;
+    width: 115px;
+  }
+
+  img {
+    height: 100px;
+    width: 100px;
+  }
+
+  .score-container {
+    gap: 1.25rem;
+    margin-top: 2rem;
+    font-size: 1.15rem;
+    padding: 0 0.75rem;
+  }
+
+  #user-score,
+  #comp-score,
+  #draw {
+    font-size: 2.4rem;
+  }
+
+  #reset {
+    min-height: 44px;
+    padding: 0.75rem 1rem;
+    font-size: 0.95rem;
+  }
+
+  .msg-container {
+    margin-top: 2rem;
+    padding: 0 0.75rem 1rem;
+  }
+
+  #msg {
+    display: block;
+    font-size: 1.2rem;
+    line-height: 1.45;
+  }
+}

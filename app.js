@@ -35,7 +35,7 @@ const gencompchoice = () => {
   // creating an array which has the choices
   let options = ["Rock", "Paper", "Scissor"];
   // method for generating an index no. from 0-2 so that a choice is made by the computer
-  const ranidx = Math.floor(Math.random(options) * 3);
+  const ranidx = Math.floor(Math.random() * 3);
   // returnig the index to the array
   return options[ranidx];
 };
